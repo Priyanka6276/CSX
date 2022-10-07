@@ -116,6 +116,18 @@ for( let i = 1; i <= 16; i++){
 }
 console.log(fb)
 
+function stringsLongerThan(arra, num) {
+  const newArra = []
+  for (let i = 0; i < arra.length; i++){
+    if (arra[i].length > num) {
+      newArra.push(arra[i])
+    }
+  }
+  return newArra
+  }
+
+  console.log(stringsLongerThan(['live', 'to', 'long', 'and', 'a', 'prosper'], 2))
+
 
 
 
